@@ -17,3 +17,5 @@ RUN wget -qO- $DLIB | tar xvz
 RUN ln -s dlib* dlib
 WORKDIR /dlib
 RUN python setup.py install
+WORKDIR /dlib/python-example
+RUN pip install -r requirements.txt
