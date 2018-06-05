@@ -5,6 +5,7 @@ RUN apt-get -y update
 RUN apt-get install -y \
       build-essential \
       cmake \
+      libav-tools\
       libboost-all-dev \
       libopenblas-dev \
       liblapack-dev \
